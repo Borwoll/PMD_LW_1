@@ -1,11 +1,13 @@
 package com.example.myapp
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -41,5 +43,11 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.w("MyApp", "MainActivity onDestroy() called")
+    }
+
+    fun goToDetailActivity(view: View?) {
+        Log.w("MyApp", "MainActivity go_to_detail_activity() called")
+        val intent = Intent(this, DetailActivity::class.java)
+        startActivity(intent)
     }
 }
