@@ -2,4 +2,9 @@
     <string name="app_name">TEA.ru</string>
     <string name="go_to_detail_activity">go to detail activity</string>
     <string name="open_yandex_ru">open yandex.ru</string>
+    <string name="favorites">Избранное</string>
+    <string name="cart_cost">1844.12₽</string>
+    <string name="profile">Профиль</string>
+    <string name="catalog">Каталог</string>
+    <string name="home">Главная</string>
 </resources>

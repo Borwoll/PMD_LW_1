@@ -2,17 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
-        android:title="Главная"/>
+        android:title="@string/home"
+        android:checked="true"
+        android:icon="@drawable/outline_home_24"/>
     <item
         android:id="@+id/catalog"
-        android:title="Каталог"/>
+        android:title="@string/catalog"
+        android:icon="@drawable/outline_manage_search_24"/>
     <item
-        android:id="@+id/cart"
-        android:title="1844.12₽"/>
+        android:id="@+id/cart_cost"
+        android:title="@string/cart_cost"
+        android:icon="@drawable/outline_shopping_bag_24"/>
     <item
         android:id="@+id/favorites"
-        android:title="Избранное"/>
+        android:title="@string/favorites"
+        android:icon="@drawable/outline_favorite_border_24"/>
     <item
         android:id="@+id/profile"
-        android:title="Профиль"/>
+        android:title="@string/profile"
+        android:icon="@drawable/outline_person_24"/>
 </menu>
