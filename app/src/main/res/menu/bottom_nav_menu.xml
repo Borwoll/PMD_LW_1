@@ -6,7 +6,6 @@
         android:checked="true"
         android:icon="@drawable/outline_home_24"/>
     <item
-        android:id="@+id/catalog"
         android:title="@string/catalog"
         android:icon="@drawable/outline_manage_search_24"/>
     <item
@@ -18,7 +17,6 @@
         android:title="@string/favorites"
         android:icon="@drawable/outline_favorite_border_24"/>
     <item
-        android:id="@+id/profile"
         android:title="@string/profile"
         android:icon="@drawable/outline_person_24"/>
 </menu>
