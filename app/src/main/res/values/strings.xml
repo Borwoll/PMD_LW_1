@@ -8,6 +8,8 @@
     <string name="catalog">Каталог</string>
     <string name="home">Главная</string>
     <string name="for_you">Подобрано для вас</string>
+    <string name="item1">Test</string>
+    <string name="item2">test2</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>
